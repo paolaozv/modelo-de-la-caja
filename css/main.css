@@ -2,23 +2,20 @@
 Escribir el CSS necesario aqui
 */
 
-p {
-	border: 1px dashed black;
-	padding: 10px 230px;
-	margin: 20px 20px 20px 35px;
+.boxHijo {
+	border: 2px dashed #38761D;
 	background-color: white;
-	box-sizing: border-box;
+	text-align: center;	
+	line-height: 50px;
+	height: 50px;
 }
 
-div {
-	width: 600px;
-	height: 120px;
-	border-top-width: 6px;
-	border-right-width: 2px;
-	border-bottom-width:6px;
-	border-left-width: 2px;
-	border-style: solid;
-	border-color: #9900FF;
+.boxPadre {
+	margin: 120px 60px 30.5px 60px;
+	padding: 40px 20px 70px 100px;
+	border: 20px solid #9900FF;
+	border-left: 10px solid #9900FF;
+	border-right: 10px solid #9900FF;
 	background-color: #F9CB9C;
 }
 
